@@ -69,11 +69,6 @@ const LandingPage = props => (
     <section>
       {props.children}
     </section>
-    <section>
-      <footer className="Container">
-        {links.map((linkGroup, key) => <LinksGroup key={key} name={linkGroup.name} links={linkGroup.links}/>)}
-      </footer>
-    </section>
   </section>
 )
 
